@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="stopwatch-logo">
+        <img src="icons/iconmonstr-time-10-32.png" alt="Stopwatch">
+    </div>
+    <div id="content">
+        <div>
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+            <h1 id="msec">0</h1>
+        </div>
+        <div id="btn">
+            <button id="btn1" onclick="start()"><img src="icons/iconmonstr-media-control-48-32.png" alt="Start" width="25px"></button>
+            <button id="btn2" onclick="pause()"><img src="icons/iconmonstr-media-control-49-32.png" alt="Pause" width="25px"></button>
+            <button id="btn3" onclick="reset()"><img src="icons/iconmonstr-refresh-2-32.png" alt="Reset" width="25px"></button>
+        </div>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+
+</html>
